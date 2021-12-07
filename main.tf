@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     docker = {
-      source  = "domu904/docker"
+      source  = "kreuzwerker/docker"
       version = ">= 2.13.0"
     }
   }
