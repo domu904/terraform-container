@@ -1,5 +1,5 @@
-resource "s3_group_policy" {
-  name  = "s3_policy"
+resource "aws_s3_bucket_policy" {
+  name  = "s3_bucket"
   group = s3_group.admin
-
 }
+
