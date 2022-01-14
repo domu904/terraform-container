@@ -10,4 +10,9 @@ This is terraform scripts for AWS.
 
  ## Running the code
 
- TODO
+ ```
+terraform init
+terraform plan
+terraform apply
+terraform output -module s3_user
+```
